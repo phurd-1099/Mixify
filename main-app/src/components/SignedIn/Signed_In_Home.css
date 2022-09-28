@@ -1,0 +1,58 @@
+.welcome {
+  z-index: -1;
+  position: relative;
+  display: block;
+  height: 200px;
+  object-fit: contain;
+  position: fixed;
+  text-align: left;
+  width: 48rem;
+  margin: auto;
+  border-top: 64rem;
+  border-bottom: 48rem;
+}
+.welcome h1 {
+  margin-left: 8rem;
+  font-size: 6rem;
+  font-weight: 400;
+  text-shadow: 5px 4px 8px black;
+}
+.welcome h2 {
+  margin-left: 8rem;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.playlists-container {
+  top: 220px;
+  margin-left: 8rem;
+  height: 280px;
+  display: fixed;
+  position: relative;
+  background-color: rgba(1, 1, 1, 0.5);
+}
+.playlist-row {
+  display: flex;
+  overflow: scroll;
+  width: 100%;
+}
+.hero {
+  clip-path: polygon(48rem 200px, 60rem 0, 100% 0, 100% 100%, 0 99%, 0 200px);
+  position: fixed;
+  margin-left: -84px;
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 50%;
+}
+
+.playlist-card {
+  margin: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  height: 90px;
+  width: 600px;
+  align-content: center;
+  background-color: red;
+  overflow: hidden;
+}
