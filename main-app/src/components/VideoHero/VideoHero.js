@@ -1,14 +1,12 @@
-import React, { useEffect, useState, setValue} from "react";
+import React, { useEffect, useState, setValue } from "react";
 import { Link } from "react-router-dom";
 import "./VideoHero.css";
 
 import BackgroundVideo from "../../assets/Turntable - 8437.mp4";
 
-
-function VideoHero(props){
-  
+function VideoHero() {
   return (
-    <div className="hero">
+    <div className="hero-container">
       <video autoPlay loop muted id="video">
         <source src={BackgroundVideo} type="video/mp4" />
       </video>
@@ -27,6 +25,6 @@ function VideoHero(props){
       </div>
     </div>
   );
-};
+}
 
 export default VideoHero;
