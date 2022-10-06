@@ -1,0 +1,57 @@
+.title-card {
+  left: 84px;
+  position: fixed;
+  width: 80%;
+  height: 10rem;
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+  background-color: rgba(126, 126, 126, 0.6);
+  z-index: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+.title-card h1 {
+  max-width: 50%;
+  position: relative;
+  font-size: 3rem;
+  padding: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+.background img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 40%;
+}
+.songs {
+  height: calc(100vh - 19rem);
+  overflow: scroll;
+  position: absolute;
+  width: 90%;
+  top: 10rem;
+  left: 84px;
+  padding: 1rem;
+}
+.save {
+  position: absolute;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 2rem;
+  left: 84px;
+  width: 60%;
+  height: 4rem;
+  font-size: 2rem;
+  background: rgba(231, 217, 217, 0.6);
+  opacity: 1;
+  top: calc(100vh - 8rem);
+  border-radius: 10px;
+}
+.save:hover {
+  background-color: rgba(49, 48, 48, 0.685);
+}

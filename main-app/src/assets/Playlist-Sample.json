@@ -1,0 +1,77 @@
+{
+  "playlist_name": "RoadTrip music",
+  "playlist_id": "1fYNGPXit4usAg7znC93XK",
+  "playlist_length": 10,
+  "Songs": [
+    {
+      "Title": "Master Of Puppets",
+      "Start": 0.0,
+      "End": 120,
+      "length": 180,
+      "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
+    },
+    {
+      "Title": "The Best Song",
+      "Start": 100,
+      "End": 230,
+      "length": 240,
+      "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
+    },
+    {
+      "Title": "Running up that hill",
+      "Start": 30,
+      "End": 60,
+      "length": 300,
+      "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
+    },
+    {
+      "Title": "Test Song",
+      "Start": 0.0,
+      "End": 190,
+      "length": 360,
+      "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
+    },
+    {
+      "Title": "Master Of Puppets",
+      "Start": 0.0,
+      "End": 190,
+      "length": 360,
+      "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
+    },
+    {
+      "Title": "Master Of Puppets",
+      "Start": 0.0,
+      "End": 2.3,
+      "length": 250,
+      "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
+    },
+    {
+      "Title": "Master Of Puppets",
+      "Start": 0.0,
+      "End": 2.3,
+      "length": 390,
+      "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
+    },
+    {
+      "Title": "Master Of Puppets",
+      "Start": 0.0,
+      "End": 2.3,
+      "length": 500,
+      "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
+    },
+    {
+      "Title": "Master Of Puppets",
+      "Start": 0.0,
+      "End": 2.3,
+      "length": 30,
+      "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
+    },
+    {
+      "Title": "Master Of Puppets",
+      "Start": 0.0,
+      "End": 2.3,
+      "length": 343,
+      "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
+    }
+  ]
+}
