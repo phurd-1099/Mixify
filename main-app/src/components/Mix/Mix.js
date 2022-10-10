@@ -1,7 +1,8 @@
-import React from "react";
+import { React, useState } from "react";
 import Toast from "./../toast/Toast";
 import "./Mix.css";
 import Song_card from "../Song_card/Song_card";
+import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 
 import playlist_data from "./../../assets/Playlist-Sample.json";
 import background from "./../../assets/playlist.jpg";
@@ -13,7 +14,7 @@ function Mix() {
     --TESTING use Playlist-Sample.json
   */
   //Store all of the song objects
-  const songs = playlist_data.Songs;
+  const [songs, updateSongs] = useState([...playlist_data.Songs]);
   const title = playlist_data.playlist_name;
 
   //Function to *currently log all of the song_cards slider values
@@ -38,6 +39,18 @@ function Mix() {
     }
   };
 
+  //Function to handel the updateing of songs after a drag
+  function handleOnDragEnd(result) {
+    if (!result.destination) return;
+
+    const items = Array.from(songs);
+    const [reorderedItem] = items.splice(result.source.index, 1);
+    items.splice(result.destination.index, 0, reorderedItem);
+
+    updateSongs(items);
+    console.log(items);
+  }
+
   return (
     <div>
       <div className="title-card">
@@ -47,17 +60,40 @@ function Mix() {
         <img src={background} />
       </div>
       <div className="songs">
-        {songs.map((song, index) => {
-          return (
-            <Song_card
-              className="song_card"
-              id={index}
-              song={song}
-              position={index}
-            />
-          );
-        })}
+        <DragDropContext onDragEnd={handleOnDragEnd}>
+          <Droppable droppableId="all_songs">
+            {(provided) => (
+              <ul {...provided.droppableProps} ref={provided.innerRef}>
+                {songs.map((song, index) => {
+                  return (
+                    <Draggable
+                      key={song.id}
+                      draggableId={song.id}
+                      index={index}
+                    >
+                      {(provided) => (
+                        <li
+                          ref={provided.innerRef}
+                          {...provided.draggableProps}
+                          {...provided.dragHandleProps}
+                        >
+                          <Song_card
+                            className="song_card"
+                            id={index}
+                            song={song}
+                            position={index}
+                          />
+                        </li>
+                      )}
+                    </Draggable>
+                  );
+                })}
+              </ul>
+            )}
+          </Droppable>
+        </DragDropContext>
       </div>
+
       <h3 className="save" onClick={log_songs}>
         Save
       </h3>

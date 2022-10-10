@@ -4,6 +4,7 @@
   "playlist_length": 10,
   "Songs": [
     {
+      "id": "1",
       "Title": "Master Of Puppets",
       "Start": 0.0,
       "End": 120,
@@ -11,6 +12,7 @@
       "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
     },
     {
+      "id": "2",
       "Title": "The Best Song",
       "Start": 100,
       "End": 230,
@@ -18,6 +20,7 @@
       "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
     },
     {
+      "id": "3",
       "Title": "Running up that hill",
       "Start": 30,
       "End": 60,
@@ -25,6 +28,7 @@
       "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
     },
     {
+      "id": "4",
       "Title": "Test Song",
       "Start": 0.0,
       "End": 190,
@@ -32,6 +36,7 @@
       "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
     },
     {
+      "id": "5",
       "Title": "Master Of Puppets",
       "Start": 0.0,
       "End": 190,
@@ -39,6 +44,7 @@
       "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
     },
     {
+      "id": "6",
       "Title": "Master Of Puppets",
       "Start": 0.0,
       "End": 2.3,
@@ -46,6 +52,7 @@
       "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
     },
     {
+      "id": "7",
       "Title": "Master Of Puppets",
       "Start": 0.0,
       "End": 2.3,
@@ -53,6 +60,7 @@
       "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
     },
     {
+      "id": "8",
       "Title": "Master Of Puppets",
       "Start": 0.0,
       "End": 2.3,
@@ -60,6 +68,7 @@
       "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
     },
     {
+      "id": "9",
       "Title": "Master Of Puppets",
       "Start": 0.0,
       "End": 2.3,
@@ -67,6 +76,7 @@
       "uri": "spotify:track:4vmERH5UYG1FLcR2sTBcjY"
     },
     {
+      "id": "10",
       "Title": "Master Of Puppets",
       "Start": 0.0,
       "End": 2.3,
