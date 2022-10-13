@@ -1,0 +1,9 @@
+/home/phurd/Documents/gitKraken/Mixify/Back-end/UserServices/src/main/java/com/userServices/UserServices/configurations/PlaylistDbConfig.java
+/home/phurd/Documents/gitKraken/Mixify/Back-end/UserServices/src/main/java/com/userServices/UserServices/repository/modelRepoUser/ModelUserRepository.java
+/home/phurd/Documents/gitKraken/Mixify/Back-end/UserServices/src/main/java/com/userServices/UserServices/configurations/MultipleMongoConfig.java
+/home/phurd/Documents/gitKraken/Mixify/Back-end/UserServices/src/main/java/com/userServices/UserServices/repository/modelRepoUser/ModelUser.java
+/home/phurd/Documents/gitKraken/Mixify/Back-end/UserServices/src/main/java/com/userServices/UserServices/controllers/UserController.java
+/home/phurd/Documents/gitKraken/Mixify/Back-end/UserServices/src/main/java/com/userServices/UserServices/repository/modelRepoPlaylist/ModelPlaylistRepository.java
+/home/phurd/Documents/gitKraken/Mixify/Back-end/UserServices/src/main/java/com/userServices/UserServices/configurations/UserDbConfig.java
+/home/phurd/Documents/gitKraken/Mixify/Back-end/UserServices/src/main/java/com/userServices/UserServices/repository/modelRepoPlaylist/ModelPlaylist.java
+/home/phurd/Documents/gitKraken/Mixify/Back-end/UserServices/src/main/java/com/userServices/UserServices/UserServicesApplication.java
