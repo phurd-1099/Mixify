@@ -1,7 +1,8 @@
 version: "3"
 services:
-  mongo:
+  user-db:
     image: mongo:latest
+    command: mongod --port 27017
     container_name: user-db
     environment:
       - MONGO_INITDB_ROOT_USERNAME=root
@@ -10,3 +11,15 @@ services:
       - "27017:27017"
     volumes:
       - ./db/users:/data/db
+
+  playlist-db:
+    image: mongo:latest
+    command: mongod --port 27018
+    container_name: playlist-db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=pass
+    ports:
+      - "27018:27018"
+    volumes:
+      - ./db/playlists:/data/db
